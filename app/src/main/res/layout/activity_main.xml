@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/colorPrimaryLight"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/heading"
+        android:textColor="#388E3C"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="180dp"
+        android:layout_height="185dp"
+        android:contentDescription="@string/img1"
+        app:srcCompat="@drawable/thermometer" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="223dp"
+            android:layout_height="142dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:text="TextView"
+            android:textColor="#F6F5F5"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            tools:ignore="RtlHardcoded,TextContrastCheck" />
+
+        <ImageView
+            android:id="@+id/cricket"
+            android:layout_width="118dp"
+            android:layout_height="142dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/img2"
+            android:rotationX="0"
+            android:rotationY="-180"
+            app:srcCompat="@drawable/cricket" />
+
+        <TextView
+            android:id="@+id/cardTitle"
+            android:layout_width="343dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="TextView"
+            android:textColor="#0D47A1"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:id="@+id/inpt"
+        android:layout_width="359dp"
+        android:layout_height="74dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hint_text"
+        android:inputType="number"
+        android:textColorHint="#8D6E63"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="212dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/button"
+        android:visibility="visible"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        android:textColor="#33691E"
+        android:textStyle="italic"
+        tools:ignore="RtlHardcoded" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cricket Temperature</string>
+    <string name="heading">Cricket Temperature Prediction</string>
+    <string name="predict">PREDICT</string>
+    <string name="hint_text">Enter Number of Chrips..</string>
+    <string name="img1">thermometer picture</string>
+    <string name="img2">cricket description</string>
+    <string name="button">PREDICT</string>
+</resources>
